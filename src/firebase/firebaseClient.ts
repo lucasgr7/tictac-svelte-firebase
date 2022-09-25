@@ -3,6 +3,7 @@ import { getDatabase } from "firebase/database";
 import 'firebase/auth';
 import 'firebase/firestore';
 var firebaseConfig = {
+    databaseURL: import.meta.env.VITE_FIREBASE_REALTIME
 };
 
 
